@@ -6,10 +6,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Stack;
 
-public class DeckOfCards {
+public class Deck {
     private Stack<Card> deck;
 
-    public DeckOfCards() {
+    public Deck() {
         deck = new Stack<>();
 
         for (Suit suit : Suit.values()) {
@@ -17,6 +17,10 @@ public class DeckOfCards {
                 deck.add(new Card(suit, rank));
             }
         }
+    }
+
+    public boolean isEmpty(){
+        return deck.isEmpty();
     }
 
     public void shuffle() {
@@ -40,7 +44,5 @@ public class DeckOfCards {
         }
     }
 
-    public List<Card> getDeck() {
-        return deck;
-    }
+
 }
