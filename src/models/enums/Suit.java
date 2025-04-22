@@ -1,7 +1,7 @@
 package models.enums;
 
 public enum Suit {
-    HEARTS("♥"), DIAMONDS("♦"), CLUBS("♣"), SPADES("♠");
+    SPADES("♠"), CLUBS("♣"), DIAMONDS("♦"), HEARTS("♥");
 
     private final String value;
 
