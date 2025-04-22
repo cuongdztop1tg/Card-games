@@ -12,6 +12,7 @@ public class TestLogic {
     public static void main(String[] args) {
         SamLocGameLogic logic = new SamLocGameLogic();
         Deck deck = new Deck();
+        Deck hi = new Deck();
 
         Card c1 = new Card(Suit.HEARTS, Rank.SIX);
         Card c2 = new Card(Suit.DIAMONDS, Rank.SIX);
