@@ -35,6 +35,6 @@ public class TestLogic {
 //        System.out.println(cards);
         System.out.println(ololo);
         System.out.println(logic2.isSequence(ololo));
-//        System.out.println(cards);
+        System.out.println(cards);
     }
 }
